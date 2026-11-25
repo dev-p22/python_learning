@@ -22,3 +22,6 @@ print(st.replace("l","x") , st) # return replaced string
 # name = input("Enter your name ");
 # print(name)
 
+word = "amazing"
+
+print(word[-7:-1])

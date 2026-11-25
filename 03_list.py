@@ -35,3 +35,15 @@ print(sum(l2))
 
 l3 = [0 ,32 , 0 , 3452 , 0 ,23 , 0 ,3 ,0 ,5 , 3 , 2 ,0 , 0 , 0]
 print(l3.count(0))
+
+
+# append and extend
+l2 = [ 1 ,2 ,3 ]
+
+l2.append([4,5]) # adds one object as a single element.
+
+print(l2)
+
+l2.extend([6,7])
+
+print(l2) # adds each element from an iterable to the existing list.
